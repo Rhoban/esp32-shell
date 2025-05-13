@@ -6,7 +6,7 @@ Firstly, clone this repository to `components/esp32-shell`:
 
 ```
 mkdir -p components
-git clone git@github.com:rhoban/esp32-shell.git components/
+git clone git@github.com:rhoban/esp32-shell.git components/esp32-shell/
 ```
 
 In your `CMakeLists.txt`, add `esp32-shell` as a `REQUIRES` for your component:
