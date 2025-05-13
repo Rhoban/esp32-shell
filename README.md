@@ -6,17 +6,7 @@ Firstly, clone this repository to `components/esp32-shell`:
 
 ```
 mkdir -p components
-git clone git@github.com:rhoban/esp32-shell.git components/esp32-shell/
-```
-
-In your `CMakeLists.txt`, add `esp32-shell` as a `REQUIRES` for your component:
-
-```
-# Example of app using esp32-shell
-idf_component_register(SRCS "my_main_app.cpp"
-                    PRIV_REQUIRES spi_flash
-                    REQUIRES esp32-shell
-                    INCLUDE_DIRS "")
+git clone https://github.com/Rhoban/esp32-shell.git components/esp32-shell/
 ```
 
 ## Starting
